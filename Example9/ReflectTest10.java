@@ -3,6 +3,8 @@ package Example9;
 
 import Example9.bean.UserService ;
 
+import java.lang.reflect.Method;
+
 /*
 重点 通过反射机制怎么调用一个对象的方法
  */
@@ -19,6 +21,11 @@ public class ReflectTest10 {
         Class userServiceClass = Class.forName("Example9.bean.UserService");
         //创建对象
         Object obj = userServiceClass.newInstance();
+        //获取method
+        Method loginMethod = userServiceClass.getDeclaredMethod("login", String.class, String.class);
+        Method loginMethod2 = userServiceClass.getDeclaredMethod("login", int.class);
+        Object retValue = loginMethod.invoke(obj,"admin","1231");
+        System.out.println(retValue);
 
     }
 }

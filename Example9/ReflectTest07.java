@@ -2,7 +2,9 @@ package Example9;
 
 import javax.jws.Oneway;
 import java.lang.reflect.Field;
-
+/*
+重点 通过反射机制怎么调用一个对象的属性
+ */
 public class ReflectTest07 {
     public static void main(String[] args) throws Exception{
         Class studentClass = Class.forName("Example9.bean.Student");

@@ -13,6 +13,10 @@ public class UserService {
         }
         return false;
     }
+
+    public void login(int i){
+
+    }
     public void logout(){
         System.out.println("系统已安全退出");
 

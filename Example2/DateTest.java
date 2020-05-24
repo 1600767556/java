@@ -6,8 +6,8 @@ public class DateTest {
     public static void main(String[] args) {
         Date d = new Date(2008,2,2);
         d.doSome();
-       /* Date d2 = new Date();
-        d2.doSome();*/
+       Date d2 = new Date(1);
+        d2.doSome();
     }
 
 

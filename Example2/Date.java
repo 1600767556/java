@@ -5,10 +5,12 @@ public class Date {
     private int month;
     private int date;
 
-    public Date(int i) {
+   public Date(int i) {
         
 this(2000,1,1);
     }
+
+
 
     public Date(int year, int month, int date) {
         this.year = year;

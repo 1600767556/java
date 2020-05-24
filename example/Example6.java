@@ -3,9 +3,9 @@ package example;
 public class Example6 {
     static  class Person {
         private String name;
-public Person(){
+        public Person(){
 
-}
+        }
         public Person(String name,String name1){
             System.out.println("我怎么没出书");
             System.out.println(name+name1);

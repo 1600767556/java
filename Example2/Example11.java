@@ -1,10 +1,5 @@
 package Example2;
 
-import com.sun.xml.internal.ws.api.model.wsdl.WSDLOutput;
-import jdk.internal.org.objectweb.asm.tree.TryCatchBlockNode;
-
-import java.util.InputMismatchException;
-import java.util.Scanner;
 
 //猴子类
 public class Example11 {
@@ -16,7 +11,7 @@ public class Example11 {
         System.out.println(result2);
         System.out.println("test2()方法执行完毕,返回:"+result2);
         int result3 = a.test3();
-        System.out.println("我想大声告诉你test3执行完毕"+result);
+        System.out.println("我想大声告诉你test3执行完毕"+result3);
 
     }
 public int test(){

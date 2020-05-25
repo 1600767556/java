@@ -3,12 +3,13 @@ package Example2;
 public class Hashcode {
     public static void main(String[] args) {
 MyMath m1 =new MyMath();
-m1.mySum(new Compute() {
+/*m1.mySum(new Compute() {
     @Override
     public int sum(int a, int b) {
-        return 0;
+        return a+b;
     }
-}, 100, 200);
+}, 100, 200);*/
+m1.mySum(new CompultImple(),1,2);
 
     }
 }
@@ -16,13 +17,13 @@ m1.mySum(new Compute() {
 interface Compute{
     int sum(int a,int b);
 }
-/*class CompultImple implements Compute{
+class CompultImple implements Compute{
 
     @Override
     public int sum(int a, int b) {
         return a+b;
     }
-}*/
+}
 class MyMath{
 
 

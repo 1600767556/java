@@ -1,6 +1,6 @@
 package Example3;
 
-import java.util.Random;
+
 
 public class Hotel {
     private Room [][] rooms;

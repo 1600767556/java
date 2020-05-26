@@ -15,6 +15,7 @@ public class FileTest02 {
         //获取文件最后一次修改时间
         long lastModified = f1.lastModified();
         Date time = new Date(lastModified);
+        System.out.println(time);
         SimpleDateFormat simpleDateFormat = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss:SSS");
 
         System.out.println(simpleDateFormat.format(time));

@@ -24,7 +24,7 @@ public class ReflectTest10 {
         //获取method
         Method loginMethod = userServiceClass.getDeclaredMethod("login", String.class, String.class);
         Method loginMethod2 = userServiceClass.getDeclaredMethod("login", int.class);
-        Object retValue = loginMethod.invoke(obj,"admin","1231");
+        Object retValue = loginMethod.invoke(obj,"admin","123");
         System.out.println(retValue);
 
     }

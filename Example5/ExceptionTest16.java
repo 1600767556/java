@@ -1,6 +1,5 @@
 package Example5;
 
-import com.sun.istack.internal.localization.NullLocalizable;
 
 public class ExceptionTest16 {
 

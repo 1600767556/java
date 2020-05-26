@@ -5,7 +5,7 @@ import java.lang.reflect.Modifier;
 
 public class ReflectTest08 {
     public static void main(String[] args) throws Exception{
-Class userServiceClass = Class.forName("Example9.bean.UserSrevice");
+Class userServiceClass = Class.forName("Example9.bean.UserService");
 Method [] methods = userServiceClass.getDeclaredMethods();
         System.out.println(methods.length);
         //遍历method

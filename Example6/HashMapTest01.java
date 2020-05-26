@@ -29,6 +29,7 @@ public class HashMapTest01 {
 
             System.out.println(stringEntry.getKey()+"="+stringEntry.getValue());
         }
+        System.out.println("------");
         Map<Integer,String> map1 = new HashMap<>();
         map1.put(10000,"dfad");
         map1.size();

@@ -10,6 +10,7 @@ thread.start();
             Thread.sleep(1000*5);
         } catch (InterruptedException e) {
             e.printStackTrace();
+
         }
 //终端t线程的睡眠(这个方式依靠了java的异常处理机制)
 thread.interrupt();

@@ -8,7 +8,7 @@ public class DataInputStremTest01 {
         DataInputStream dis = new DataInputStream(new FileInputStream("F:\\java IO流文件放置\\dos2"));
 
         byte b = dis.readByte();
-        short s = dis.readByte();
+        short s = dis.readShort();
         int i = dis.readInt();
         long l = dis.readLong();
         float f = dis.readFloat();

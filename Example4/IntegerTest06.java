@@ -8,6 +8,8 @@ public class IntegerTest06 {
         System.out.println(double1+1);
         Integer integer1 = Integer.valueOf(100);
         Integer integer2 =  Integer.valueOf("100");
+        System.out.println(integer1);
+        System.out.println(integer2);
         String string =  Integer.toOctalString(8);
         System.out.println(string);
         System.out.println();

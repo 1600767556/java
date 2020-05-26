@@ -25,7 +25,7 @@ public class ListTest01 {
         for (int i = 0; i <list.size(); i++) {
             System.out.println(list.get(i));
         }
-        System.out.println("------------------------");
+        System.out.println("--------------------342----");
         System.out.println(list.indexOf("king"));
         System.out.println("-----");
         System.out.println(list.lastIndexOf("king"));

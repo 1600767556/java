@@ -8,7 +8,7 @@ public class ExceptionTest08 {
         try {
             m1();
         } catch (FileNotFoundException e) {
-            e.printStackTrace();
+           // e.printStackTrace();
             String a = e.getMessage();
             System.out.println(a);
         }

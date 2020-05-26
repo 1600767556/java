@@ -12,11 +12,13 @@ public class StringTest02 {
         System.out.println("dasagagaacavavajavadaodako".indexOf("java"));
         String s = "dada ";
         System.out.println(s.isEmpty());
-      /*  byte [] bytes = "abcdef".getBytes();
+        byte [] bytes = "abcdef".getBytes();
         for (int i = 0; i <bytes.length ; i++) {
             System.out.print(bytes[i]+" ");
-        }*/
+        }
+        System.out.println("-----------");
         System.out.println("javaasdafagagagagajava".lastIndexOf("java"));
+        System.out.println("------------");
         String newString = "http://www.baidu.com".replace("http://","https://");
         System.out.println(newString);
         String [] ymd = "2000-11-23".split("-");

@@ -6,7 +6,7 @@ public class ExceptionTest05 {
         String msg = npe.getMessage();
         System.out.println(msg);
         //打印异常信息
-        npe.printStackTrace();
+       npe.printStackTrace();
         for (int i = 0; i <1000 ; i++) {
             System.out.println(i);
         }

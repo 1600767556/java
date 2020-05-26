@@ -8,5 +8,5 @@ public @interface OtherAnnotation02 {
      * 季节数据
      * @return
      */
-    Season [] seasonArray();
+    Season02 [] seasonArray();
 }

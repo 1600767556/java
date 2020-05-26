@@ -1,8 +1,9 @@
 package Example10;
 
 import java.lang.reflect.Field;
-
+@MyAnnoTation07
 public class MyAnnotation07Test {
+
     public static void main(String[] args) throws Exception{
         //获取类
         Class c = Class.forName("Example10.User");

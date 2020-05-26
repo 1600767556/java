@@ -7,7 +7,7 @@ public class ArgsTest {
     public static void main(String[] args) {
 m();
 m(10,20);
-m2(100,"ac");
+m2(100,"ac","aa");
 m3("aa","vv","cc","dd");
 
 String [] str = {"a","v","c"};
@@ -16,7 +16,7 @@ m3(str);
     public static void m(int ... args){
         System.out.println("m方法执行了");
     }
-   // public static void m2(int ... args2,String ... args1){ }
+   // public static void m2(int ... args2,String ... args1){ } 错误
    public static void m2(int n,String ... args1){
 
    }

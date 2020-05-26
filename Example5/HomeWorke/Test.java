@@ -6,8 +6,8 @@ public class Test {
         try {
             userService.register("hu","31231");
         } catch (IlleagalNameException e) {
-            //System.out.println(e.getMessage());
-            e.printStackTrace();
+            System.out.println(e.getMessage());
+            //e.printStackTrace();
         }
     }
 }

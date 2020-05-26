@@ -21,7 +21,7 @@ Field [] fields = classStudent.getDeclaredFields();
             s.append(" ");
             s.append(f.getType().getSimpleName());
             s.append(" ");
-            s.append(f.getName());
+           s.append(f.getName());
             s.append(";\n");
 
         }

@@ -1,6 +1,5 @@
 package Example9;
 
-import Example9.bean.User;
 
 import java.io.FileReader;
 import java.util.Properties;

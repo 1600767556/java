@@ -1,6 +1,5 @@
 package Example4;
 
-import java.util.Arrays;
 import java.util.Random;
 
 public class RandomTest02 {

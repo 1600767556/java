@@ -1,6 +1,6 @@
 package Example6;
 
-public class GenercicTest03<E> {
+public class GenericTest03<E> {
 
     public void doSome(E o){
 
@@ -11,7 +11,7 @@ public class GenercicTest03<E> {
     public static void main(String[] args) {
         //GenercicTest03<String> genercicTest03 = new GenercicTest03();
         //genercicTest03.doSome("\033[32;4m" + "123" + "\033[0m") ;
-        GenercicTest03<Integer> genercicTest031 = new GenercicTest03<>();
+        GenericTest03<Integer> genercicTest031 = new GenericTest03<>();
         genercicTest031.doSome(1000);
 
        /* System.out.println("\033[30;4m" + "123" + "\033[0m");
@@ -36,7 +36,7 @@ public class GenercicTest03<E> {
         MyIterator<Animal > myIterator2 = new MyIterator();
         Animal s2 = myIterator2.get();
 
-        GenercicTest03 genercicTest032 = new GenercicTest03();
+        GenericTest03 genercicTest032 = new GenericTest03();
         genercicTest032.doSome(new Object());
     }
 

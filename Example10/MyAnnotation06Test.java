@@ -10,7 +10,7 @@ public class MyAnnotation06Test {
     }
 
     public static void main(String[] args) throws Exception{
-        Class c = Class.forName("Example10.MyAnnonaction06Test");
+        Class c = Class.forName("Example10.MyAnnotation06Test");
         //获取doSome方法
         Method doSomeMethod = c.getDeclaredMethod("doSome");
         //判断是否存在这个注解
